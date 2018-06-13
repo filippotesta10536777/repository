@@ -1,0 +1,35 @@
+#stella {
+	background-color: yellow;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
+#blu {
+	background-color: blue;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 50%;
+	right:5%;
+	border-radius: 50%;
+}
+@keyframes spin {
+	from {transform:  translate(-50%, -50%) rotate(0deg);}
+	to {transform:  translate(-50%, -50%) rotate(360deg);}
+}
+#quadratoceleste {
+	
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.spinning {
+	animation: spin 10s linear infinite;
+}
